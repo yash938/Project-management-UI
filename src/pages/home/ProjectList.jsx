@@ -9,7 +9,7 @@ import {MagnifyingGlassIcon, MixerHorizontalIcon} from '@radix-ui/react-icons'
 import React from 'react'
 import ProjectCard from '../project/ProjectCard'
 
-const tags = [
+export const tags = [
     "all",
     "react",
     "nextjs",

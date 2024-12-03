@@ -46,10 +46,6 @@ const ProjectCard = () => {
             {
                 [1,1,1,1].map((item)=><Badge key={item} variant="outline">{"frontend"}</Badge>)
             }
-
-
-             //1:08
-
         </div>
       </div> 
     </Card>
