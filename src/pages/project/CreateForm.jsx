@@ -18,6 +18,10 @@ const CreateForm = () => {
     },
   });
 
+  const onSubmit = (data) => {
+    console.log('Create project data', data);
+  };
+
   const handleTagsChange = (newValue) => {
     const currentTags = form.getValues('tags');
     const updatedTags = currentTags.includes(newValue)
@@ -27,9 +31,7 @@ const CreateForm = () => {
     form.setValue('tags', updatedTags);
   };
 
-  const onSubmit = (data) => {
-    console.log('Create project data', data);
-  };
+ 
 
   return (
     <div>
