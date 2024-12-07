@@ -6,6 +6,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { PersonIcon } from '@radix-ui/react-icons'
 import { useNavigate } from 'react-router-dom'
 
+
 const Navbar = () => {
   const navigate = useNavigate()
   return (
@@ -24,7 +25,7 @@ const Navbar = () => {
                         <CreateForm/>
                     </DialogContent>
                 </Dialog>
-                <Button variant="ghost">Upgrade</Button>
+                <Button onClick={()=>navigate("/upgrade-plan")} variant="ghost">Upgrade</Button>
         </div>
         <div className='flex gap-3 items-center'>
             <DropdownMenu>
