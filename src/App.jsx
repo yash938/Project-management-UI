@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    {false ? <div>
+    {true ? <div>
       <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
